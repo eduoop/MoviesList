@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+  height: 70px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #e2e2e2;
+  border-radius: 20px;
+  border: 1px solid #cbcbcb;
+}
+
+* {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(
+  200deg,
+  hsl(297deg 100% 21%) 0%,
+  hsl(286deg 100% 23%) 33%,
+  hsl(274deg 100% 25%) 67%,
+  hsl(262deg 100% 27%) 100%
+);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(221, 221, 221);
+  transition: 0.3s;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,81 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1em 2rem;
+    background: rgba(255, 255, 255, 0.24);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#navbar h2 a {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+#navbar form {
+    display: flex;
+    gap: 1em;
+    
+}
+
+#navbar input {
+    padding: .2rem .8rem;
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.586);
+    outline: none;
+    background-color: transparent;
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    font-weight: 500;
+}
+
+#navbar input::placeholder {
+    color: rgba(255, 255, 255, 0.426);
+    font-weight: 400;
+}
+
+#navbar input:focus {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+#navbar form button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.3em;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .4em;
+    transition: .5s;
+}
+
+#navbar form button:hover {
+    background-color: white;
+    color: black;
+}
+
+.inputAndClose {
+    position: relative;
+}
+
+#navbar .closeIcon {
+    position: absolute;
+    right: 4%;
+    top: 27%;
+    color: rgb(67, 67, 67);
+    cursor: pointer;
+}
+

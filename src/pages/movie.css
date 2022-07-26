@@ -1,0 +1,46 @@
+.movie-page {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7em;
+}
+
+.cardFlex {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    width: 500px;
+}
+
+.info h3 {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.back-arrow {
+    position: fixed;
+    top: 17%;
+    left: 4%;
+    font-size: 2em;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.back-arrow:hover {
+    color: rgba(255, 255, 255, 0.867);
+}
+
+.description {
+    line-height: 1.4rem;
+}
