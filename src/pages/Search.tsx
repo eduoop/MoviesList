@@ -34,7 +34,7 @@ export const Search = () => {
       <h2 className="title">Resultados para: <span className='query-text'>{query}</span></h2>
       <div className="movies-container">
         {movies?.map((movie, index) => (
-          <MovieCard key={index} movie={movie} showLink={true}/>
+          <MovieCard key={movie.id} movie={movie} showLink={true}/>
         ))}
       </div>
     </div>
